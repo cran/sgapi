@@ -1,11 +1,11 @@
-792ea14a231c0f312cf3d7f9fe925765 *DESCRIPTION
+1daa1356de85aec4247f54bda1ac6ed5 *DESCRIPTION
 9bd6ef31dbf4dde9020fd87d33b585e8 *LICENSE
 5215357f307f14ef8d937a37e3c7655b *NAMESPACE
 d9f034e3767bd04b48392a0fbfe60e15 *R/assert_function.R
 1a5e5b72187c9e976d619e4698eb20b4 *R/data_descriptions.R
 22ea3de2d035a41781f5f8f5f5688f1b *R/get_available_scales.R
-52f925ac9e44fd10bc40cea4e6457b9e *R/get_boundaries.R
-91dadf262433533fe281d8dd6040c54b *R/get_boundaries_areaname.R
+5ed7ea799479ec8327ecf22b1c35c5d5 *R/get_boundaries.R
+4f93feb50e3d36037f98fc5179a72c59 *R/get_boundaries_areaname.R
 8366ae8f93d2c2c872b417ed388b67e5 *R/get_keyword_table_id.R
 c901a3be5cc4613c7155f1fba5e72b96 *R/get_overview.R
 db605dcc0ed3d5f9aad726d83bf48418 *R/get_structure.R
@@ -13,7 +13,7 @@ db605dcc0ed3d5f9aad726d83bf48418 *R/get_structure.R
 b6bae0a06411a469521f5dee0225b5a5 *R/get_table_dimensions.R
 8c965ce44506958c9198939c9066c651 *R/get_table_id.R
 d41a645b2ec1aafff0a1934e0780d182 *R/get_table_info_brief.R
-54dad05581b50a30dd034e13a6a68bef *R/get_table_link_lookup.R
+cd3fdcc810c8e8c0f4d7ef731cf35dbf *R/get_table_link_lookup.R
 dd6f0f47a42a60b671be39203a2d4eb1 *R/list_boundaries.R
 dd481f2ee9590f5dbde908f8efeb738a *R/list_data_sources.R
 0703b25e0ea5ddc6ee59c526ca1644f7 *R/list_tables.R
@@ -34,7 +34,7 @@ f9eab43d79f52632dedbdea106e69c04 *man/get_table.Rd
 d794b5012a9c809e4eddbf9e5f8be34f *man/get_table_dimensions.Rd
 2cca1d8677746f05a329a4b58b9e682d *man/get_table_id.Rd
 47e84b737613bf2429911aef86e5f10c *man/get_table_info_brief.Rd
-f67901ed577d5cb2fa5a2f870c673b6c *man/get_table_link_lookup.Rd
+dcebdb65fc7fda6b7fb7a425f6f2fe67 *man/get_table_link_lookup.Rd
 b280975056442f2862fe2086610e93ba *man/list_boundaries.Rd
 c360eb4b23072c258482243d4d46887d *man/list_data_sources.Rd
 152f678f48b14f493b5a4a53d4477354 *man/list_tables.Rd
@@ -43,10 +43,10 @@ fbcd2bb486bb428c7f23e8241c9bafa6 *man/lookup.rda.Rd
 b85bdcce8ffe57b961d35c87f0053522 *man/scalesForEachDataset.rda.Rd
 9ea6f519fd00aa2dd3554940476e865b *tests/testthat.R
 dfae857d7ba360c64acdd51daea1291f *tests/testthat/test-get_available_scales.R
-912eca506c8b7dbcbbb2ebe1d43bedea *tests/testthat/test-get_boundaries.R
+be7204615509b4a4ce38693fe2d71e16 *tests/testthat/test-get_boundaries.R
 55c51c695fcefc3f102de25de0d24854 *tests/testthat/test-get_overview.R
 bab50c250f6d71fa03da51214b4e29e3 *tests/testthat/test-get_structure.R
-fe805ef7ddcc61c9fa522fffde454bdc *tests/testthat/test-get_table.R
+fa1cf74c7b4a1cdf862e3f303961e2a9 *tests/testthat/test-get_table.R
 51ef57d78cf646f9d578de3f2ecf0566 *tests/testthat/test-get_table_dimensions.R
 f9069f68a6617140cdee571f98c361b0 *tests/testthat/test-list_boundaries.R
 e305c402d384fd3899edad2c04f3f87e *tests/testthat/test-list_data_sources.R

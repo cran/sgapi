@@ -1,7 +1,7 @@
 Package: sgapi
 Title: Aid Querying 'nomis' and 'Office for National Statistics Open
         Geography' APIs
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     c(person("Andrew", "Christy", , "OR_Hub@defra.gov.uk", role = c("aut", "cre")),
            person("James","Macpherson", , "James.macpherson@defra.gov.uk", role = "aut"),
@@ -20,7 +20,7 @@ Config/testthat/edition: 3
 Depends: R (>= 3.6)
 LazyData: true
 NeedsCompilation: no
-Packaged: 2024-03-18 10:30:00 UTC; andrewchristy
+Packaged: 2024-03-20 07:55:03 UTC; andrewchristy
 Author: Andrew Christy [aut, cre],
   James Macpherson [aut],
   Hadyn Jenkins [aut],
@@ -28,4 +28,4 @@ Author: Andrew Christy [aut, cre],
     [cph]
 Maintainer: Andrew Christy <OR_Hub@defra.gov.uk>
 Repository: CRAN
-Date/Publication: 2024-03-18 18:10:02 UTC
+Date/Publication: 2024-03-20 12:30:02 UTC

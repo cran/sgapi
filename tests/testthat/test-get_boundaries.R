@@ -2,10 +2,17 @@ test_that("A valid boundary returns a list", {
   expect_type(get_boundaries("MSOA_Dec_2011_Boundaries_Generalised_Clipped_BGC_EW_V3_2022","-1.282825,52.354169,0.206626,52.7106"), "list")
 })
 
+test_that("A valid boundary and valid areaname returns a list - no spaces in area names", {
+  expect_type(get_boundaries_areaname(boundary="Local_Authority_Districts_December_2022_UK_BGC_V2",col_name_var="LAD22NM",chosen_constituency_list="Harrogate"), "list")
+})
 
-#test_that("A valid boundary returns a list", {
-#  expect_type(get_boundaries_areaname(boundary="Local_Authority_Districts_December_2022_UK_BGC_V2",col_name_var="LAD22NM",chosen_constituency_list=c("Derbyshire Dales","Harrogate")), "list")
-#})
+test_that("A valid boundary and valid areanames returns a list - no spaces in area names", {
+  expect_type(get_boundaries_areaname(boundary="Local_Authority_Districts_December_2022_UK_BGC_V2",col_name_var="LAD22NM",chosen_constituency_list=c("Hambleton","Harrogate","Fenland")), "list")
+})
+
+test_that("A valid boundary and valid areanames returns a list", {
+  expect_type(get_boundaries_areaname(boundary="Local_Authority_Districts_December_2022_UK_BGC_V2",col_name_var="LAD22NM",chosen_constituency_list=c("Derbyshire Dales","Harrogate","West Northamptonshire")), "list")
+})
 
 
 test_that("A coordinate outside the UK returns a warning", {
@@ -24,7 +31,7 @@ test_that("An invalid boundary name returns a warning", {
   expect_warning(get_boundaries("MSOA_Dec_2011Clipped_BGC_EW_V3_2022","-1.282825,52.354169,0.206626,52.7106"))
 })
 
-
+#check if this needs to be removed
 test_that("An invalid column name returns a warning", {
   expect_warning(get_boundaries_areaname("Local_Authority_Districts_December_2022_UK_BGC_V2","L22NM",c("Derbyshire Dales","Harrogate")))
 })
