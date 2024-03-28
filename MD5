@@ -1,4 +1,4 @@
-1daa1356de85aec4247f54bda1ac6ed5 *DESCRIPTION
+a4be6f7c594bddf38b0d34543bb73fea *DESCRIPTION
 9bd6ef31dbf4dde9020fd87d33b585e8 *LICENSE
 5215357f307f14ef8d937a37e3c7655b *NAMESPACE
 d9f034e3767bd04b48392a0fbfe60e15 *R/assert_function.R
@@ -43,10 +43,10 @@ fbcd2bb486bb428c7f23e8241c9bafa6 *man/lookup.rda.Rd
 b85bdcce8ffe57b961d35c87f0053522 *man/scalesForEachDataset.rda.Rd
 9ea6f519fd00aa2dd3554940476e865b *tests/testthat.R
 dfae857d7ba360c64acdd51daea1291f *tests/testthat/test-get_available_scales.R
-be7204615509b4a4ce38693fe2d71e16 *tests/testthat/test-get_boundaries.R
+18075be05eb2cee52d6ac3e963a4b6a9 *tests/testthat/test-get_boundaries.R
 55c51c695fcefc3f102de25de0d24854 *tests/testthat/test-get_overview.R
 bab50c250f6d71fa03da51214b4e29e3 *tests/testthat/test-get_structure.R
 fa1cf74c7b4a1cdf862e3f303961e2a9 *tests/testthat/test-get_table.R
-51ef57d78cf646f9d578de3f2ecf0566 *tests/testthat/test-get_table_dimensions.R
+6eccc6f7ca2963e983759f44c3ee2bcf *tests/testthat/test-get_table_dimensions.R
 f9069f68a6617140cdee571f98c361b0 *tests/testthat/test-list_boundaries.R
-e305c402d384fd3899edad2c04f3f87e *tests/testthat/test-list_data_sources.R
+89a656058ac0755a8d70810911816613 *tests/testthat/test-list_data_sources.R
