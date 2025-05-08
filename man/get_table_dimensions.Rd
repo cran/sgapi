@@ -4,10 +4,12 @@
 \alias{get_table_dimensions}
 \title{Table Dimensions}
 \usage{
-get_table_dimensions(id)
+get_table_dimensions(id, base_url = "https://www.nomisweb.co.uk/api/v01")
 }
 \arguments{
 \item{id}{A table ID recognised by 'nomis' (e.g "NM_1_1").}
+
+\item{base_url}{Nomis API base url}
 }
 \value{
 A tidy dataframe of the dimensions, and available filtering values, of your chosen 'nomis' table.

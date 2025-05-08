@@ -4,13 +4,16 @@
 \alias{get_boundaries}
 \title{Get Boundaries Using Geospatial Filter}
 \usage{
-get_boundaries(boundary, geometry_filter = NULL)
+get_boundaries(boundary, geometry_filter = NULL, 
+base_url = "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services")
 }
 \arguments{
 \item{boundary}{A valid ONS boundary name given as a string.}
 
 \item{geometry_filter}{geospatial shape or point (using latitude and longitude).
 Currently limited to a rectangular box or dropped pin.}
+
+\item{base_url}{Open Geography Portal base url}
 }
 \value{
 An sf object for all constituencies in the geospatial area submitted through

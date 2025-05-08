@@ -4,10 +4,12 @@
 \alias{get_available_scales}
 \title{Available Boundary Scales for 'nomis' Table}
 \usage{
-get_available_scales(id)
+get_available_scales(id, base_url = "https://www.nomisweb.co.uk/api/v01")
 }
 \arguments{
 \item{id}{A valid 'nomis' table id given as a string.}
+
+\item{base_url}{Nomis API base url}
 }
 \value{
 A tidy dataframe listing the geographical scales available for the 'nomis' table selected.

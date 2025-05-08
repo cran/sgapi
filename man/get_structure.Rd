@@ -4,12 +4,14 @@
 \alias{get_structure}
 \title{Extract 'nomis' Table Data for Chosen Dimension}
 \usage{
-get_structure(id, dim)
+get_structure(id, dim, base_url = "https://www.nomisweb.co.uk/api/v01")
 }
 \arguments{
 \item{id}{A valid 'nomis' id.}
 
 \item{dim}{The name of the g which dimension is queried.}
+
+\item{base_url}{Base nomis url to query}
 }
 \value{
 An object with JSON structure for the chosen dimension of the selected 'nomis' table.

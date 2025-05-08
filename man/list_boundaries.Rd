@@ -4,7 +4,12 @@
 \alias{list_boundaries}
 \title{List Available Boundaries}
 \usage{
-list_boundaries()
+list_boundaries(
+  base_url = "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services"
+)
+}
+\arguments{
+\item{base_url}{Open geography portal base url}
 }
 \value{
 A vector of available boundary layers on 'ONS Open Geography'.

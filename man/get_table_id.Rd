@@ -4,10 +4,12 @@
 \alias{get_table_id}
 \title{Get 'nomis 'Table IDs}
 \usage{
-get_table_id(name)
+get_table_id(name, base_url = "https://www.nomisweb.co.uk/api/v01")
 }
 \arguments{
 \item{name}{A string to search for within 'nomis' table titles.}
+
+\item{base_url}{Nomis API base url}
 }
 \value{
 A dataframe of 'nomis' table codes and names, as strings, for all 'nomis' tables containing the selected 'name' in their title.

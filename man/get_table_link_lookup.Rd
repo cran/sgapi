@@ -9,7 +9,8 @@ get_table_link_lookup(
   col_name_1,
   col_name_2,
   col_name_3,
-  col_name_4
+  col_name_4,
+  base_url = "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services"
 )
 }
 \arguments{
@@ -22,6 +23,8 @@ get_table_link_lookup(
 \item{col_name_3}{Field in ONS table containing the constituency name of the smaller scale resolution.}
 
 \item{col_name_4}{Field in ONS table containing the constituency name of the larger scale resolution.}
+
+\item{base_url}{Open geography portal base url}
 }
 \value{
 A tidy dataframe, providing a lookup between two chosen boundary resolutions.
