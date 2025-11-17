@@ -1,7 +1,7 @@
 Package: sgapi
 Title: Aid Querying 'nomis' and 'Office for National Statistics Open
         Geography' APIs
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: 
     c(
       person("Michael", "Stocks", email = "sgapi.orhub@gmail.com", role = c("aut", "cre")),
@@ -22,7 +22,7 @@ Config/testthat/edition: 3
 Depends: R (>= 3.6)
 LazyData: true
 NeedsCompilation: no
-Packaged: 2025-05-08 12:28:10 UTC; michaelstocks
+Packaged: 2025-11-16 19:51:53 UTC; Andrew
 Author: Michael Stocks [aut, cre],
   Andrew Christy [aut],
   James Macpherson [aut],
@@ -31,4 +31,4 @@ Author: Michael Stocks [aut, cre],
     [cph]
 Maintainer: Michael Stocks <sgapi.orhub@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-05-08 12:50:02 UTC
+Date/Publication: 2025-11-17 21:50:46 UTC
