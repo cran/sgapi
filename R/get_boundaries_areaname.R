@@ -1,7 +1,8 @@
 #' @title Get Boundaries Using Area Names
 #' 
 #' @description
-#' Extract a geojson shapefile of the chosen areas at the user-selected resolution.
+#' Extract a geojson shapefile of the chosen areas at the user-selected resolution. List of all boundaries can be found here: 
+#' https://geoportal.statistics.gov.uk/search?q=Boundary&sort=Date%20Created%7Ccreated%7Cdesc
 #' 
 #' @usage get_boundaries_areaname(boundary, col_name_var, chosen_constituency_list, 
 #' base_url = "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services")

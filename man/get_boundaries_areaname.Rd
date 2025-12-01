@@ -20,7 +20,8 @@ base_url = "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services")
 An sf object of the constituencies submitted to the function. If there are no constituencies, return is NULL.
 }
 \description{
-Extract a geojson shapefile of the chosen areas at the user-selected resolution.
+Extract a geojson shapefile of the chosen areas at the user-selected resolution. List of all boundaries can be found here:
+https://geoportal.statistics.gov.uk/search?q=Boundary&sort=Date\%20Created\%7Ccreated\%7Cdesc
 }
 \examples{
 get_boundaries_areaname(boundary="Local_Authority_Districts_December_2022_UK_BGC_V2",
